@@ -1,0 +1,531 @@
+a {
+    display: block;
+}
+
+h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    margin: 18px;
+    font-size: 45px;
+    color: aliceblue;
+    margin-top: 0;
+    text-align: left;
+    letter-spacing: -0.54px;
+}
+
+body {
+    display: flexbox;
+    margin:0; 
+}
+
+.paragraph {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 19px;
+    color: aliceblue;
+    font-weight: 400;
+    margin-top: 5px;
+    margin: 24px
+}
+.t{
+    font-size: 16px;  
+}
+.imglogo {
+    width: 150px;
+    padding-left: 70px;
+    padding-top: 10px;
+}
+
+.img {
+    width: 543px;
+    margin-right: auto;
+    margin-left: auto;
+    align-content: center;
+    vertical-align: middle;
+    box-sizing: border-box;
+    overflow-clip-margin: content-box;
+}
+
+.loginbutton {
+    color: aliceblue;
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500
+}
+.loginbutton svg{
+    display: inline-flex;
+}
+.create:hover{
+    color: aliceblue;
+    border: 1px solid aliceblue;
+    background-color: #0050c3;
+}
+
+.create {
+    border-radius: 25px;
+    background-color: aliceblue;
+    color: #0050c3;
+    padding: 10px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: large;
+}
+
+.flex-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+    padding-top: 10px;
+    background-color: #0050c3;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 70px;
+    background-color: #0050c3;
+}
+#inicio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -100px;
+    margin-right: 50px;
+    margin-left: 50px;
+    background-color: #0050c3;
+    margin: 0;
+}
+#iniciacion-container{
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    overflow: hidden;
+    width: 450px;
+    padding: 5px;
+    box-shadow: 1px grey;
+}
+.linkcreacion{
+    text-decoration: none;
+    background-color: #0050c3;
+    color: aliceblue;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 50px;
+    padding: 15px 25px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+}
+.linkcreacion:hover{
+    background-color: aliceblue;
+    border: 1px solid #0050c3;
+    color: #0050c3;
+}
+.inputbutton {
+    flex: 1;
+    outline: none;
+    border: none;
+    background-color: aliceblue;
+    color: gray;
+    border: 1px solid aliceblue;
+    border-radius: 50px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px; 
+    padding: 10px 18px; 
+    margin-right: 8px; 
+}
+.firstpart{
+    width: 550px;
+    align-items: center;
+    justify-content: left;
+    padding-left: 80px;
+    background-color: #0050c3;
+}
+#pagina2{
+    display: block;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 42px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(23, 30, 67);
+    text-align: center;
+    margin-bottom: 4rem;
+    height: 100px;
+    width: 800px;
+    margin-left: 260px;
+    padding-top: 50px;
+}
+#contenedor-tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.tarjetas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 20px;
+    flex-basis: 300px;
+    flex-grow: 1;
+    margin-bottom: 1res;
+    transition: 200res;
+    box-shadow: 0px 0px 2px 2px rgba(8, 0, 53, 0.25);
+    padding: 1px;
+    border-radius: 15px;
+    border: 5px;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+.tarjetas h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.50rem;
+    color: rgb(23, 30, 67);
+    margin: 15px;
+    margin-bottom: -1px;
+}
+.tarjetas p{
+    padding: 20px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    margin-top: 2px;
+    color: rgba(54, 53, 53, 0.959);
+}
+.columna-img{
+    display: flex;
+    flex-direction: row;
+    margin-left:200px;
+    margin: 100px;
+    justify-content: left;
+    align-items: center;
+}
+.columna-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 30px;
+    padding-right:1px;
+    font-weight: 400;
+    text-align: left;
+    width: 600px;
+    margin-top: 10px;
+}
+.alinear{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 0 60px;
+    flex-grow: 1;
+    flex-basis: 100px;
+    transition: 10res;
+    margin-top: -55px;
+}
+.iconos-tarjetas{
+    display: flex;
+    justify-content: left;
+    margin-left: -250px;
+    margin-top:20px;
+    margin-bottom: 5px;
+}
+.checkpoint{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.checkpoint li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.checkpoint p{
+    padding-left: 20px;
+}
+.icon{
+    border: 1px solid #ffffff;
+    border-radius: 70px;
+    padding: 10px;
+    color: #0050c3;
+    background-color: rgba(118, 218, 221, 0.61);
+    height: 17px;
+    padding-bottom: 10px;
+    padding-top: 10px;    
+}
+.boton-sec2{
+    text-decoration: none;
+    background-color: #0050c3;
+    color: aliceblue;
+    border-radius: 25px;
+    padding: 10px;
+    margin-right: 350px;
+    padding-left: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.boton-sec2:hover{
+    background-color: aliceblue;
+    color: #0050c3;
+    border-radius: 25px;
+    border: 1px solid #0050c3;
+    font-weight: 400;
+}
+#pagina4{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0050c3;
+}
+.tarjeta-4{
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    margin-right: 50px;
+}
+.testimonio{
+    background-color: aliceblue;
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-top: 40px;
+    border-radius: 15px;
+    padding: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+}
+.title-4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    width: 450px;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    padding-left: 150px;
+    color: aliceblue;
+}
+.comillas{
+    font-size: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.opinion-parrafo{
+    margin-top: -40px;
+}
+.opinion{
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.artistname{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.opinion-parrafo a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: black;
+}
+.flechas{
+    color: #0050c3;
+    height: 45px;
+    align-self: flex-end;
+    border-radius: 500px;
+    border: 3px;
+    width: 45px;
+    padding: 10px;
+    justify-content: left;
+    display: block;
+    justify-content: left;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+    margin-left: -55rem;
+}
+
+.flechas:hover{
+    color: aliceblue;
+    background-color: #0050c3;
+    border: 1px solid aliceblue;
+}
+.tarjeta-5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 20px;
+    flex-basis: 300px;
+    flex-grow: 1;
+    margin-bottom: 1res;
+    transition: 200res;
+    box-shadow: 0px 0px 2px 2px rgba(8, 0, 53, 0.25);
+    padding: 1px;
+    border-radius: 15px;
+    border: 5px;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+.tarjeta-5 p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+    align-self: flex-start;
+    font-weight: 400;
+    font-size: 18px;
+}
+.tarjeta-5 h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(23, 30, 67);
+    font-size: 25px;
+    font-weight: 520;
+    margin-top: -2px;
+}
+.tarjeta-5 a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #0050c3;
+    align-self: flex-start;
+    font-weight: 500;
+    padding-bottom: 25px;
+}
+#pagina5 h2{
+    width: 700px;
+    align-self: center;
+    padding-left: 67px;
+}
+#pagina6{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 19rem;
+}
+.pag6-text{
+    width:550px;
+    align-items: flex-end;
+    display: block;
+    padding-left: 20px;
+}
+.pag6-text h3{
+    align-self: flex-start;
+    font-size: 30px;
+    justify-content: flex-start;
+    width: 320px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:rgb(23, 30, 67) ;
+    font-weight: 620;
+}
+.pag6-text p{
+    width: 400px;
+    color: rgb(23, 30, 67);
+    font-weight: 350;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    height: 30px;
+}
+.pag6-text a{
+    margin-top: 50px;
+    font-weight: 500;
+}
+#pagina6 img{
+    padding-left: 200px;
+    align-items: center;
+}
+#pagina7{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10rem;
+}
+#pagina7 h3{
+    align-self: flex-start;
+    justify-content: flex-start;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:rgb(23, 30, 67) ;
+}
+.title-7{
+    width: 400px;
+    font-size: 35px;
+    font-weight: 630;
+    padding-left: 50px;
+    display: block;
+    align-self: first baseline;
+}
+.contenedor-preguntas{
+    display: flex;
+    flex-direction: column; 
+    padding-bottom: 10px; 
+}
+.preguntas {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.534);
+    width: 550px;
+    padding-right: 80px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+.preguntas h3 {
+    font-size: 22px;
+    font-weight: 500;
+    width: 500px;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+.preguntas svg {
+    padding-left: 30px;
+    margin-right: -50px;
+    border: 1px solid #0050c3;
+    border-radius: 70px;
+    padding: 10px;
+}
+.preguntas svg:hover{
+    background-color: #0050c3;
+    color: aliceblue;
+}
+footer{
+    background-color: #0050c3;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 5rem;
+}
+footer p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-size: 15px;
+    padding-left: 8rem;
+    padding-top: 40px;
+    width: 20rem;
+    font-weight: 450;
+}
+.footer-text a{
+    text-decoration: none;
+    color: rgba(250, 235, 215, 0.623);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    padding-left: 8rem;
+    padding-bottom: 40px;
+    margin-top: -10px;
+    height: 8px;
+}
+footer a:hover{
+    color: rgba(250, 235, 215, 0.897);
+}
+#ultima-parte{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 7rem;
+    gap: 15px;
+}
